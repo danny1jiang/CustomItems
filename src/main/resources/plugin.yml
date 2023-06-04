@@ -1,0 +1,12 @@
+name: CustomItems
+version: '${project.version}'
+main: me.danny.customitems.CustomItems
+api-version: 1.19
+authors: [ Danny ]
+commands:
+  customitems:
+    aliases:
+      - ci
+    description: Main command
+    usage: /customitems
+    permission: customitems.admin
