@@ -1,0 +1,14 @@
+items:
+  Club:
+    display: "Club"
+    description: "Unwieldy, but powerful"
+    material: "WOODEN_SHOVEL"
+    rarity: "Common"
+    attributes:
+      GENERIC_ATTACK_DAMAGE:
+        amount: 8
+        slot: "HAND"
+      GENERIC_ATTACK_SPEED:
+        amount: -3.5
+        slot: "HAND"
+

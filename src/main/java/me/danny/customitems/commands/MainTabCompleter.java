@@ -32,7 +32,6 @@ public class MainTabCompleter implements TabCompleter {
                 switch(args[0]) {
                     case "get": {
                         for(String name : ItemTemplate.itemList.keySet()) {
-                            Bukkit.getLogger().info(name);
                             if(startsWith(args[1], name)) {
                                 result.add(name);
                             }
